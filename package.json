@@ -1,0 +1,28 @@
+{
+  "name": "github-action-slack-notify-deploy",
+  "version": "1.0.0",
+  "description": "Github action to notify Slack about deploys",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build index.js --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spotlight-ar/github-action-slack-notify-deploy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spotlight-ar/github-action-slack-notify-deploy/issues"
+  },
+  "homepage": "https://github.com/spotlight-ar/github-action-slack-notify-deploy#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "@slack/web-api": "^6.5.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.33.1"
+  }
+}
