@@ -84,6 +84,7 @@ const buildMessage = () => {
           ],
         },
       ],
+      text: `Deploying ${product}@${version} to ${environment}`,
     }
 
     if (envUrl) {
